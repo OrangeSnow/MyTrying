@@ -1,0 +1,116 @@
+
+body {
+	background: #fefeea;
+	font: 18px/16px Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	background-image:url(../images/bc2.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed
+	
+}
+
+#div1{
+	padding-top:15px;
+	margin-top:10px;
+	margin-bottom:50px;
+	border:solid 6px black;
+	height:2950px;
+
+}
+#div2{
+	width:1000px;
+	height:240px;
+	display: block;
+    position: fixed;
+	background: url(../images/head5.png);
+}
+header{
+	background: rgba(199, 200, 201, 0.3) url(../images/title4.png) top center;
+	height:230px;
+	margin-top:0px;
+	
+}
+.page-wrapper{
+	background:url(../images/mymid2.png) repeat-y center;
+    position: absolute;
+    left: 50%;
+	margin-left:-500px;
+    width: 1000px;
+}
+section{
+	margin-left:50px;
+	margin-right:40px;
+	background: rgba(199, 200, 201, 0.8)
+}
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+	display: block;
+}
+
+li{
+	font-style: italic;
+	background: url(../images/listline.png) no-repeat center bottom;
+    padding-bottom: 15px;
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+a{
+    display: block;
+	font-style: normal;
+	line-height:20px;
+}
+a:link, a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: #039;
+}
+a:hover{
+background-color:black;
+color:white; 
+}
+
+.extra3{
+ 	 width:320px;
+	 height:190px;
+	 display: block;
+     position: fixed;
+     right: 10px;
+     bottom: 5px;
+     z-index: 1030;
+	 background: url(../images/saibasi2.gif);
+	 
+}
+
+
+#ul1,#ul2,#ul3,#ul4{
+	margin-left:20px;
+	margin-top:20px;
+
+}
+.ul1_li,.ul2_li,.ul3_li,.ul4_li{
+border:2px;
+float:left;
+margin-left:18px;
+}
+.li_pic1,.li_pic2,.li_pic3,.li_pic4{
+width:250px;
+height:150px;
+border:solid 3px black;
+}
+.li_pic1:hover,.li_pic2:hover,.li_pic3:hover,.li_pic4:hover{
+ border:solid 3px #f8f648;
+}
+.xiaer{
+	 width:320px;
+	 height:190px;
+	 display: block;
+     position: fixed;
+     left: 50px;
+     bottom: 5px;
+     z-index: 1030;
+	background: url(../images/xiaer3.gif);
+}

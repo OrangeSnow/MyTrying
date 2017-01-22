@@ -1,0 +1,125 @@
+
+body {
+	background: #fefeea;
+	font: 18px/16px Georgia, "Times New Roman", Times, serif;
+	color: #390404;
+	margin: 0px;
+}
+header{
+	background: #ffc url(../images/title3.png) top center;
+	height:230px;
+	margin-top:0px;
+	
+}
+.page-wrapper{
+	background: #ffc url(../images/mymid.jpg) repeat-y center;
+    position: absolute;
+    left: 50%;
+	margin-left:-500px;
+    width: 1000px;
+}
+section{
+	margin-left:70px;
+	margin-right:35px;
+}
+aside{
+	margin-top:40px;
+	margin-left:350px;
+	width:300px;
+}
+ul{
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+	display: block;
+}
+
+li{
+	font-style: italic;
+	background: url(../images/listline.gif) no-repeat center bottom;
+    padding-bottom: 15px;
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+a{
+    display: block;
+    
+	font-style: normal;
+}
+a:link, a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: #039;
+}
+a:hover{
+background-color:#fce09b; 
+}
+.extra1{
+ 	width:150px;
+	height:361px;
+	display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1030;
+	background: url(../images/float_left2.png);
+}
+.extra2{
+ 	width:150px;
+	height:361px;
+	 display: block;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     z-index: 1030;
+	 background: url(../images/float_right2.png);
+}
+.extra3{
+ 	width:320px;
+	height:190px;
+	 display: block;
+     position: fixed;
+     right: 10px;
+     bottom: 5px;
+     z-index: 1030;
+	 background: url(../images/saibasi.gif);
+}
+#div2{
+	width:1000px;
+	height:30px;
+	display: block;
+    position: fixed;
+	background: url(../images/head3.jpg);
+}
+#div1{
+padding-top:15px;
+margin-top:10px;
+margin-bottom:50px;
+border:solid 6px #c1a969;
+height:1000px;
+}
+#ul1,#ul2,#ul3,#ul4{
+	margin-left:20px;
+	margin-top:20px;
+
+}
+.ul1_li,.ul2_li,.ul3_li,.ul4_li{
+border:2px;
+float:left;
+margin-left:18px;
+}
+.li_pic1,.li_pic2,.li_pic3,.li_pic4{
+width:250px;
+height:150px;
+border:solid 3px #c1a969;
+}
+.xiaer{
+	 width:320px;
+	 height:190px;
+	 display: block;
+     position: fixed;
+     left: 50px;
+     bottom: 5px;
+     z-index: 1030;
+	background: url(../images/xiaer.gif);
+}
