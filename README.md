@@ -1,5 +1,4 @@
 # MyTrying
-I will success!!!!!
 
 The url 1 of gothic style（直接访问的网址1，哥特式黑执事）：https://orangesnow.github.io/MyTrying/Panel/index.html
 
